@@ -1,92 +1,129 @@
-
+```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-  <title>SLIMP SMP - Nederlandse Minecraft Survival SMP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description" content="SLIMP SMP: Survial > PVP > Economy">
+    <title>SLIMP SMP - Nederlandse Minecraft Survival SMP</title>
+    <meta name="description" content="SLIMP SMP: Survival, PvP en Economy. Join onze Nederlandse Minecraft SMP via play.slimpsmp.nl!">
+    <meta name="keywords" content="SLIMP SMP, SLIMP Minecraft, Minecraft SMP, Nederlandse Minecraft server">
 
-<meta name="keywords" content="SLIMP SMP, SLIMP Minecraft, Minecraft SMP, Nederlandse Minecraft server">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SLIMP SMP</title>
-  <link rel="stylesheet" href="style.css">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://slimpsmp.nl/">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6951847135196559"
+         crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <a class="logo" href="#">SLIMP <span>SMP</span></a>
-    <nav>
-      <a href="#features">Features</a>
-      <a href="#store">Store</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-  </header>
+    <header>
+        <a class="logo" href="#">SLIMP <span>SMP</span></a>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#store">Store</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+    </header>
 
-  <section class="hero">
-    <p class="eyebrow">YOUR WORLD. YOUR SURVIVAL.</p>
-    <h1>WELCOME TO <span>SLIMP SMP</span></h1>
-    <p>Build your base, trade with players and fight for your place in the world.</p>
-    <div class="server-ip">
-      <strong id="server-ip">play.slimpsmp.nl</strong>
-      <button onclick="copyIP()">COPY IP</button>
-    </div>
-    <p id="copy-status">Java Edition</p>
-  </section>
+    <section class="hero">
+        <p class="eyebrow">YOUR WORLD. YOUR SURVIVAL.</p>
+        <h1>WELCOME TO <span>SLIMP SMP</span></h1>
+        <p>Build your base, trade with players and fight for your place in the world.</p>
 
-  <section id="features">
-    <h2>MAKE YOUR MARK</h2>
-    <div class="cards">
-      <article><h3>Open-world PvP</h3><p>Fight other players and defend your base.</p></article>
-      <article><h3>Player economy</h3><p>Earn money, trade and use the server shop.</p></article>
-      <article><h3>Build and compete</h3><p>Create your own base and reputation.</p></article>
-    </div>
-  </section>
+        <div class="server-ip">
+            <strong id="server-ip">play.slimpsmp.nl</strong>
+            <button onclick="copyIP()">COPY IP</button>
+        </div>
 
-  <section id="store">
-    <h2>RANK STORE</h2>
-    <p>Support SLIMP SMP by purchasing a rank.</p>
-    <div class="cards">
-      <article class="rank">
-        <h3>VIP</h3><h2>€2.99</h2>
-        <a href="#how-to-buy">GET VIP</a>
-      </article>
-      <article class="rank featured">
-        <h3>ELITE</h3><h2>€4.99</h2>
-        <a href="#how-to-buy">GET ELITE</a>
-      </article>
-      <article class="rank">
-        <h3>LEGEND</h3><h2>€7.99</h2>
-        <a href="#how-to-buy">GET LEGEND</a>
-      </article>
-    </div>
+        <p id="copy-status">Java Edition</p>
+    </section>
 
-    <div class="notice">
-      Payments are only available in the Netherlands.
-      <br>Payments are handled manually through Tikkie.
-    </div>
+    <section id="features">
+        <h2>MAKE YOUR MARK</h2>
+        <div class="cards">
+            <article>
+                <h3>Open-world PvP</h3>
+                <p>Fight other players and defend your base.</p>
+            </article>
+            <article>
+                <h3>Player economy</h3>
+                <p>Earn money, trade and use the server shop.</p>
+            </article>
+            <article>
+                <h3>Build and compete</h3>
+                <p>Create your own base and reputation.</p>
+            </article>
+        </div>
+    </section>
 
-    <article id="how-to-buy" class="buy">
-      <h3>HOW TO BUY</h3>
-      <p>1. Join our Discord.</p>
-      <p>2. Open a ticket.</p>
-      <p>3. Tell us your Minecraft username and desired rank.</p>
-      <p>4. Receive a Tikkie payment request.</p>
-      <p>5. After payment confirmation, staff will give you your rank.</p>
-      <a href="https://discord.gg/ZcR3p5KwBT" target="https://discord.gg/ZcR3p5KwBT">OPEN DISCORD</a>
-    </article>
-  </section>
+    <section id="store">
+        <h2>RANK STORE</h2>
+        <p>Support SLIMP SMP by purchasing a rank.</p>
 
-  <section id="faq">
-    <h2>FAQ</h2>
-    <details><summary>What is the server IP?</summary><p>play.slimpsmp.nl</p></details>
-    <details><summary>How do I buy a rank?</summary><p>Open a Discord ticket. Payments are handled through Tikkie.</p></details>
-    <details><summary>When do I receive my rank?</summary><p>After payment confirmation.</p></details>
-  </section>
+        <div class="cards">
+            <article class="rank">
+                <h3>VIP</h3>
+                <h2>€2.99</h2>
+                <a href="#how-to-buy">GET VIP</a>
+            </article>
 
-  <footer>
-    © 2026 SLIMP SMP. Not affiliated with Mojang or Microsoft.
-  </footer>
+            <article class="rank featured">
+                <h3>ELITE</h3>
+                <h2>€4.99</h2>
+                <a href="#how-to-buy">GET ELITE</a>
+            </article>
 
-  <script src="script.js"></script>
+            <article class="rank">
+                <h3>LEGEND</h3>
+                <h2>€7.99</h2>
+                <a href="#how-to-buy">GET LEGEND</a>
+            </article>
+        </div>
+
+        <div class="notice">
+            Payments are only available in the Netherlands.
+            <br>
+            Payments are handled manually through Tikkie.
+        </div>
+
+        <article id="how-to-buy" class="buy">
+            <h3>HOW TO BUY</h3>
+            <p>1. Join our Discord.</p>
+            <p>2. Open a ticket.</p>
+            <p>3. Tell us your Minecraft username and desired rank.</p>
+            <p>4. Receive a Tikkie payment request.</p>
+            <p>5. After payment confirmation, staff will give you your rank.</p>
+
+            <a href="https://discord.gg/ZcR3p5KwBT" target="_blank" rel="noopener noreferrer">OPEN DISCORD</a>
+        </article>
+    </section>
+
+    <section id="faq">
+        <h2>FAQ</h2>
+
+        <details>
+            <summary>What is the server IP?</summary>
+            <p>play.slimpsmp.nl</p>
+        </details>
+
+        <details>
+            <summary>How do I buy a rank?</summary>
+            <p>Open a Discord ticket. Payments are handled through Tikkie.</p>
+        </details>
+
+        <details>
+            <summary>When do I receive my rank?</summary>
+            <p>After payment confirmation.</p>
+        </details>
+    </section>
+
+    <footer>
+        © 2026 SLIMP SMP. Not affiliated with Mojang or Microsoft.
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
+```
